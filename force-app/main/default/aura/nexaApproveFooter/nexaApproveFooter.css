@@ -1,0 +1,70 @@
+.THIS .footer-wrap {
+    padding: 1rem;
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+}
+.THIS .footer-main {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.THIS .fb-top {
+    background: #0F6E56;
+    padding: 12px 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.THIS .quote-icon {
+    font-size: 20px;
+    color: #E1F5EE;
+    flex-shrink: 0;
+}
+.THIS .fb-quote {
+    font-size: 13px;
+    color: #E1F5EE;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.5;
+}
+.THIS .fb-bottom {
+    padding: 12px 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.THIS .fb-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.THIS .fb-tag {
+    font-size: 14px;
+    font-weight: 600;
+    color: #032D60;
+    margin: 0;
+}
+.THIS .fb-highlight {
+    color: #0F6E56;
+}
+.THIS .fb-copy {
+    font-size: 11px;
+    color: #706E6B;
+    margin: 0;
+}
+.THIS .fb-social {
+    display: flex;
+    gap: 6px;
+}
+.THIS .fb-btn {
+    background: #F3F3F3;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #706E6B;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}

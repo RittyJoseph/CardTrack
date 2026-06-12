@@ -1,0 +1,21 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <div class="footer-wrap">
+        <div class="footer-main">
+            <div class="fb-top">
+                <span class="quote-icon">&#10077;</span>
+                <p class="fb-quote">"If you love what you are doing, you will be successful." — Albert Schweitzer</p>
+            </div>
+            <div class="fb-bottom">
+                <div class="fb-left">
+                    <p class="fb-tag">NexaApprove — <span class="fb-highlight">Your Financial Journey, Our Commitment.</span></p>
+                    <p class="fb-copy">© 2024 NexaApprove. All rights reserved. Business Bay, Dubai UAE.</p>
+                </div>
+                <div class="fb-social">
+                    <span class="fb-btn">&#128279; LinkedIn</span>
+                    <span class="fb-btn">&#128279; Twitter</span>
+                    <span class="fb-btn">&#127760; Website</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>

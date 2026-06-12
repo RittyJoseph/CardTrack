@@ -1,0 +1,11 @@
+Dear {!Credit_Card_Application__c.Assigned_Officer__c},
+
+The credit card application for 
+{!Credit_Card_Application__c.Full_Name__c} has been REJECTED.
+
+Rejection Reason: {!Credit_Card_Application__c.Rejection_Reason__c}
+Application ID: {!Credit_Card_Application__c.Name}
+
+Please inform the customer and update records accordingly.
+
+CardTrack System.

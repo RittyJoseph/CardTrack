@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Bank Submitted To --></label>
+    <name>Bank_Submitted_To__c</name>
+    <picklistValues>
+        <masterLabel>ADCB</masterLabel>
+        <translation><!-- ADCB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBD</masterLabel>
+        <translation><!-- CBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIB</masterLabel>
+        <translation><!-- DIB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emirates NBD</masterLabel>
+        <translation><!-- Emirates NBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAB</masterLabel>
+        <translation><!-- FAB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mashreq</masterLabel>
+        <translation><!-- Mashreq --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAKBANK</masterLabel>
+        <translation><!-- RAKBANK --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

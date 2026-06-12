@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docs_Pending</fullName>
+    <columns>NAME</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Contact_Number__c</columns>
+    <columns>Card_Type_Applied__c</columns>
+    <columns>All_Documents_Complete__c</columns>
+    <columns>Follow_up_Requested_On__c</columns>
+    <columns>Assigned_Officer__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Application_Status__c</field>
+        <operation>equals</operation>
+        <value>Docs Pending</value>
+    </filters>
+    <filters>
+        <field>All_Documents_Complete__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Docs Pending</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejected_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Rejection_Reason__c</columns>
+    <columns>AECB_Score__c</columns>
+    <columns>Monthly_Salary__c</columns>
+    <columns>Decision_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Application_Status__c</field>
+        <operation>equals</operation>
+        <value>Rejected</value>
+    </filters>
+    <label>Rejected Applications</label>
+</ListView>

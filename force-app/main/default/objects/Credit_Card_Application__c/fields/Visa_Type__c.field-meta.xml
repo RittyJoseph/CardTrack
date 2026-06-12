@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visa_Type__c</fullName>
+    <label>Visa Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Employment Visa</fullName>
+                <default>false</default>
+                <label>Employment Visa</label>
+            </value>
+            <value>
+                <fullName>Family Sponsored Visa</fullName>
+                <default>false</default>
+                <label>Family Sponsored Visa</label>
+            </value>
+            <value>
+                <fullName>Golden Visa</fullName>
+                <default>false</default>
+                <label>Golden Visa</label>
+            </value>
+            <value>
+                <fullName>Investor/Partner Visa</fullName>
+                <default>false</default>
+                <label>Investor/Partner Visa</label>
+            </value>
+            <value>
+                <fullName>Not Applicable (UAE National)</fullName>
+                <default>false</default>
+                <label>Not Applicable (UAE National)</label>
+            </value>
+            <value>
+                <fullName>Tourist Visa</fullName>
+                <default>false</default>
+                <label>Tourist Visa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

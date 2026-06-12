@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Salary Transferred Bank --></label>
+    <name>Salary_Transferred_Bank__c</name>
+    <picklistValues>
+        <masterLabel>Abu Dhabi Commercial Bank (ADCB)</masterLabel>
+        <translation><!-- Abu Dhabi Commercial Bank (ADCB) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dubai Islamic Bank (DIB)</masterLabel>
+        <translation><!-- Dubai Islamic Bank (DIB) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emirates NBD</masterLabel>
+        <translation><!-- Emirates NBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First Abu Dhabi Bank (FAB)</masterLabel>
+        <translation><!-- First Abu Dhabi Bank (FAB) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mashreq Bank</masterLabel>
+        <translation><!-- Mashreq Bank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEN(
+    SUBSTITUTE(
+        SUBSTITUTE(
+            SUBSTITUTE(
+                SUBSTITUTE(Phone_No__c, &quot;(&quot;, &quot;&quot;), 
+            &quot;)&quot;, &quot;&quot;), 
+        &quot;-&quot;, &quot;&quot;), 
+    &quot; &quot;, &quot;&quot;)
+) &lt;&gt; 10</errorConditionFormula>
+    <errorDisplayField>Phone_No__c</errorDisplayField>
+    <errorMessage>Invalid Input</errorMessage>
+</ValidationRule>

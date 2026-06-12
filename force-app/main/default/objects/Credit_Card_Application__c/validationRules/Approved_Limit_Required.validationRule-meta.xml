@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Limit_Required</fullName>
+    <active>true</active>
+    <description>Approved Credit Limit is mandatory when status is Approved</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Application_Status__c, &quot;Approved&quot;),
+  ISBLANK(Approved_Credit_Limit__c)
+)</errorConditionFormula>
+    <errorMessage>Error Message  : Approved Credit Limit (AED) must be filled when application status is Approved.
+Error Location : Field — Approved Credit Limit</errorMessage>
+</ValidationRule>

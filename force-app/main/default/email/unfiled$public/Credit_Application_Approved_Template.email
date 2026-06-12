@@ -1,0 +1,11 @@
+Dear {!Credit_Card_Application__c.Assigned_Officer__c},
+
+Great news! The credit card application for {!Credit_Card_Application__c.Full_Name__c} has been APPROVED.
+
+Approved Limit: AED {!Credit_Card_Application__c.Approved_Credit_Limit__c}
+Card Type: {!Credit_Card_Application__c.Card_Type_Applied__c}
+Application ID: {!Credit_Card_Application__c.Name}
+
+Please proceed with card dispatch process.
+
+CardTrack System

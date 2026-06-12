@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Credit_Card_Application__c.Full_Name__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Assigned_Officer__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Application_Status__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Application_Date__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Bank_Submitted_To__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Employer_Name__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Company__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Credit_Card_Application__c.Debt_Burden_Ratio_DBR__c</field>
+    </columns>
+    <columns>
+        <field>Credit_Card_Application__c.Decision_Date__c</field>
+    </columns>
+    <currency>AED</currency>
+    <filter>
+        <criteriaItems>
+            <column>Credit_Card_Application__c.Application_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>On Hold</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Applications - On Hold</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Credit_Card_Application__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Credit_Card_Application__c.Application_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

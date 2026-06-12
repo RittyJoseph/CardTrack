@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Docs_Complete_Accuracy</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  All_Documents_Complete__c = TRUE,
+  OR(
+    Emirates_ID_Copy__c = FALSE,
+    Passport_Copy__c = FALSE,
+    Visa_Copy__c = FALSE,
+    AECB_Consent_Form__c = FALSE,
+    AND(
+      ISPICKVAL(Employment_Type__c, &quot;Salaried&quot;),
+      Salary_Certificate__c = FALSE
+    ),
+    AND(
+      ISPICKVAL(Employment_Type__c, &quot;Self-Employed&quot;),
+      OR(
+        Trade_License_Self_Employed__c = FALSE,
+        Salary_Certificate__c = FALSE
+      )
+    ),
+    AND(
+      ISPICKVAL(Employment_Type__c, &quot;Business Owner&quot;),
+      OR(
+        Trade_License_Self_Employed__c = FALSE,
+        Salary_Certificate__c = FALSE
+      )
+    )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>All_Documents_Complete__c</errorDisplayField>
+    <errorMessage>All Documents Complete can only be checked when all document checkboxes are ticked.</errorMessage>
+</ValidationRule>

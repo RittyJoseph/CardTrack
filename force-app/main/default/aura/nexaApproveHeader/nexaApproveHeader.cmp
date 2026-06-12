@@ -1,0 +1,57 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+
+    <div class="header-wrap">
+
+        <div class="main-header">
+            <div class="left-section">
+                <div class="logo-mark">
+                    <span>NA</span>
+                </div>
+                <div class="company-info">
+                    <p class="co-name">NexaApprove</p>
+                    <p class="co-tag">Loan &amp; Credit Processing Specialists</p>
+                    <span class="badge">&#10003; Licensed Credit Processing Firm</span>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="right-section">
+                <p class="info-row">&#128222; +971 4 987 6543</p>
+                <p class="info-row">&#9993; ops@nexaapprove.ae</p>
+                <p class="info-row">&#128336; Sun – Thu, 8:30 AM – 6:30 PM</p>
+                <p class="info-row">&#128205; Business Bay, Dubai, UAE</p>
+            </div>
+        </div>
+
+        <div class="partner-strip">
+            <div>
+                <p class="partner-label">Multi-bank authorized credit processing firm</p>
+                <p class="partner-name">&#127970; Working with 10+ leading UAE banks</p>
+            </div>
+            <div class="badge-group">
+                <span class="badge-green">&#10003; Multi-bank</span>
+                <span class="badge-blue">&#128737; UAE Regulated</span>
+            </div>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat-card">
+                <p class="stat-label">Est.</p>
+                <p class="stat-value">2014</p>
+            </div>
+            <div class="stat-card">
+                <p class="stat-label">Agents</p>
+                <p class="stat-value">85</p>
+            </div>
+            <div class="stat-card">
+                <p class="stat-label">Applications Processed</p>
+                <p class="stat-value">52K+</p>
+            </div>
+            <div class="stat-card">
+                <p class="stat-label">Approval Rate</p>
+                <p class="stat-value">78%</p>
+            </div>
+        </div>
+
+    </div>
+
+</aura:component>

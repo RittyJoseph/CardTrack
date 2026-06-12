@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Rejection Reason --></label>
+    <name>Rejection_Reason__c</name>
+    <picklistValues>
+        <masterLabel>AECB Score</masterLabel>
+        <translation><!-- AECB Score --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete Docs</masterLabel>
+        <translation><!-- Incomplete Docs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Salary</masterLabel>
+        <translation><!-- Low Salary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Visa Issue</masterLabel>
+        <translation><!-- Visa Issue --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

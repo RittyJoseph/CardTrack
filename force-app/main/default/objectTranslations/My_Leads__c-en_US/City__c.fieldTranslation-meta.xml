@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- City --></label>
+    <name>City__c</name>
+    <picklistValues>
+        <masterLabel>Agartala</masterLabel>
+        <translation><!-- Agartala --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ahmedabad</masterLabel>
+        <translation><!-- Ahmedabad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aizawl</masterLabel>
+        <translation><!-- Aizawl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bengaluru</masterLabel>
+        <translation><!-- Bengaluru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bhubaneswar</masterLabel>
+        <translation><!-- Bhubaneswar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chennai</masterLabel>
+        <translation><!-- Chennai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dehradun</masterLabel>
+        <translation><!-- Dehradun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dimapur</masterLabel>
+        <translation><!-- Dimapur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gangtok</masterLabel>
+        <translation><!-- Gangtok --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gurugram</masterLabel>
+        <translation><!-- Gurugram --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guwahati</masterLabel>
+        <translation><!-- Guwahati --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hyderabad</masterLabel>
+        <translation><!-- Hyderabad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imphal</masterLabel>
+        <translation><!-- Imphal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indore</masterLabel>
+        <translation><!-- Indore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Itanagar</masterLabel>
+        <translation><!-- Itanagar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jaipur</masterLabel>
+        <translation><!-- Jaipur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kochi</masterLabel>
+        <translation><!-- Kochi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kolkata</masterLabel>
+        <translation><!-- Kolkata --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lucknow</masterLabel>
+        <translation><!-- Lucknow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ludhiana</masterLabel>
+        <translation><!-- Ludhiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mumbai</masterLabel>
+        <translation><!-- Mumbai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Panaji</masterLabel>
+        <translation><!-- Panaji --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patna</masterLabel>
+        <translation><!-- Patna --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raipur</masterLabel>
+        <translation><!-- Raipur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ranchi</masterLabel>
+        <translation><!-- Ranchi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shillong</masterLabel>
+        <translation><!-- Shillong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shimla</masterLabel>
+        <translation><!-- Shimla --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Visakhapatnam</masterLabel>
+        <translation><!-- Visakhapatnam --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

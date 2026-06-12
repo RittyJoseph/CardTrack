@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Visa Type --></label>
+    <name>Visa_Type__c</name>
+    <picklistValues>
+        <masterLabel>Employment Visa</masterLabel>
+        <translation><!-- Employment Visa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Sponsored Visa</masterLabel>
+        <translation><!-- Family Sponsored Visa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golden Visa</masterLabel>
+        <translation><!-- Golden Visa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor/Partner Visa</masterLabel>
+        <translation><!-- Investor/Partner Visa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Applicable (UAE National)</masterLabel>
+        <translation><!-- Not Applicable (UAE National) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tourist Visa</masterLabel>
+        <translation><!-- Tourist Visa --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
