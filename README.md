@@ -20,6 +20,17 @@ CardTrack is a Salesforce-based Credit Card Application Management System design
 
 The solution supports customer onboarding, document management, application tracking, bank submissions, and operational monitoring within a single Salesforce application.
 
+| Area | Detail |
+|------|--------|
+| Custom Fields | 40+ across 7 sections |
+| Validation Rules |8 rules |
+| Automated Flows | 6 flows |
+| List Views | 9 views |
+| Reports | 6 reports |
+| Dashboard Components | 9 components |
+| Role Hierarchy | 5 levels |
+| Security Model | Private OWD + Role Hierarchy + Custom Profile + Permission Set + FLS |
+
 ## Business Scenario
 
 Credit card sales teams often rely on spreadsheets, emails, and messaging platforms to manage customer applications.
@@ -155,13 +166,15 @@ data access and record visibility across the organisation.
 - Restricts cross-team data visibility by default
 
 **Role Hierarchy**
-A 3-tier hierarchy controls record access upward through the organisation:
+A 5-tier hierarchy controls record access upward through the organisation:
 
 | Level | Role |
 |-------|------|
-| Tier 1 | NexaApprove CEO |
-| Tier 2 | Operations Manager |
-| Tier 3 | Credit Card Officers |
+| Tier 1 | Company Owner |
+| Tier 2 | General Manager |
+| Tier 3 | Branch Manager |
+| Tier 4 | Team Leader |
+| Tier 5 | Sales Officer |
 
 **Profiles & Permission Sets**
 - Custom **Credit Card Officer Profile** with baseline object and field access
@@ -186,8 +199,8 @@ at the field level, visible only to authorised roles.
 - Role Hierarchy Configuration
 - Chatter Collaboration
 - Task Management
-- Data Quality Controls
-- Business Process Automation
+- Field-Level Security (FLS)
+- Organisation-Wide Defaults (OWD)
 
 ## Technology Stack
 
