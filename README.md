@@ -1,3 +1,30 @@
+<p align="center">
+  <img src="screenshots/cardtrack-logo.png" alt="CardTrack Logo" width="250">
+</p>
+
+<h1 align="center">CardTrack</h1>
+
+<p align="center">
+  <strong>Salesforce-Based UAE Credit Card Application Tracking System</strong>
+</p>
+
+<p align="center">
+  Built for UAE Banking & Financial Services Operations
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Salesforce-Lightning-blue" alt="Salesforce">
+  <img src="https://img.shields.io/badge/CRM-Application-success" alt="CRM">
+  <img src="https://img.shields.io/badge/UAE-Banking-orange" alt="UAE Banking">
+  <img src="https://img.shields.io/badge/Status-Portfolio_Project-brightgreen" alt="Portfolio">
+</p>
+
+<p align="center">
+  <em>Streamlining Credit Card Application Processing Through Salesforce Automation</em>
+</p>
+
+<hr>
+
 **CardTrack – UAE Credit Card Application Tracker**
 
 A Salesforce-based Credit Card Application Management System designed for UAE banking and financial services operations.
@@ -88,7 +115,7 @@ Key metrics include:
 * Bank Submission Analysis
 
 ![Dashboard Overview](screenshots/dashboard-overview.png)
-
+![Dashboard Overview](screenshots/dashboard-illustrations.png)
 
 ## 📈 Application Pipeline Monitoring
 
