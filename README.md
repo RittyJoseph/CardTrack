@@ -228,7 +228,7 @@ This project demonstrates hands-on experience with:
 
 Salesforce Administrator | CRM & Financial Services Operations
 
-This project demonstrates hands-on Salesforce administration across the full implementation lifecycle — data modelling, automation, 
-analytics, security configuration, and UX design — within a UAE credit card application management context.
+This project demonstrates hands-on Salesforce administration across the full implementation lifecycle-data modelling, automation, 
+analytics, security configuration, and UX design within a UAE credit card application management context.
  
 🔗 [GitHub](https://github.com/RittyJoseph/CardTrack)
