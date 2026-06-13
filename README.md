@@ -1,36 +1,26 @@
 <p align="center">
   <img src="screenshots/cardtrack-logo.png" alt="CardTrack Logo" width="250">
 </p>
-
 <h1 align="center">CardTrack</h1>
-
-<p align="center">
-  <strong>Salesforce-Based UAE Credit Card Application Tracking System</strong>
-</p>
-
 <p align="center">
   Built for UAE Banking & Financial Services Operations
 </p>
-
+ 
 <p align="center">
   <img src="https://img.shields.io/badge/Salesforce-Lightning-blue" alt="Salesforce">
   <img src="https://img.shields.io/badge/CRM-Application-success" alt="CRM">
   <img src="https://img.shields.io/badge/UAE-Banking-orange" alt="UAE Banking">
   <img src="https://img.shields.io/badge/Status-Portfolio_Project-brightgreen" alt="Portfolio">
 </p>
-
-<p align="center">
-  <em>Streamlining Credit Card Application Processing Through Salesforce Automation</em>
-</p>
-
 <hr>
 
-**CardTrack – UAE Credit Card Application Tracker**
+## Project Overview
 
-A Salesforce-based Credit Card Application Management System designed for UAE banking and financial services operations.
-CardTrack streamlines the end-to-end credit card application lifecycle by centralizing customer information, automating operational processes, improving data quality, and providing management with real-time visibility through dashboards and reports.
+CardTrack is a Salesforce-based Credit Card Application Management System designed for UAE banking and financial services operations.
 
-📌 **Business Scenario**
+The solution supports customer onboarding, document management, application tracking, bank submissions, and operational monitoring within a single Salesforce application.
+
+## Business Scenario
 
 Credit card sales teams often rely on spreadsheets, emails, and messaging platforms to manage customer applications.
 
@@ -43,10 +33,9 @@ This can result in:
 * Difficult performance tracking
 * Manual reporting efforts
 
-CardTrack addresses these challenges by providing a centralized Salesforce platform for application processing and operational monitoring.
+CardTrack addresses these challenges by providing a centralized Salesforce platform for application processing, workflow automation, data validation, and real-time operational reporting.
 
-
-## 🏢 Application Home Page
+## Application Home Page
 
 The CardTrack Home Page serves as the central workspace for application processing teams.
 
@@ -61,7 +50,7 @@ Features include:
 ![Home Page](screenshots/home-page.png)
 
 
-## 🤝 Team Collaboration
+## Team Collaboration
 
 Built-in collaboration using Salesforce Chatter enables officers and supervisors to communicate directly within the platform.
 
@@ -73,7 +62,7 @@ Built-in collaboration using Salesforce Chatter enables officers and supervisors
 ![Application Workspace](screenshots/application-record.png)
 
 
-## 🧮 DBR Calculator
+## DBR Calculator
 
 A custom Debt Burden Ratio (DBR) Calculator helps officers evaluate customer eligibility.
 
@@ -88,7 +77,7 @@ This reflects a common credit assessment process used within UAE banking operati
 ![DBR Calculator](screenshots/dbr-calculator.png)
 
 
-## 📢 Operational Announcements
+## Operational Announcements
 
 A dedicated announcement section keeps teams informed about:
 
@@ -100,9 +89,11 @@ A dedicated announcement section keeps teams informed about:
 ![Announcements](screenshots/announcements.png)
 
 
-# 📊 Dashboard & Analytics
+## Dashboard & Analytics
 
-Management dashboards provide real-time operational visibility.
+Management dashboards provide insight into application volume, approval trends, officer productivity, and bank submission performance.
+
+These metrics help supervisors monitor operational KPIs and identify process bottlenecks.
 
 Key metrics include:
 
@@ -117,7 +108,7 @@ Key metrics include:
 ![Dashboard Overview](screenshots/dashboard-overview.png)
 ![Dashboard Overview](screenshots/dashboard-illustrations.png)
 
-## 📈 Application Pipeline Monitoring
+## Application Pipeline Monitoring
 
 Track applications throughout the processing lifecycle:
 
@@ -128,10 +119,10 @@ Track applications throughout the processing lifecycle:
 * Rejected
 * On Hold
 
-![Pipeline Dashboard](screenshots/application-files.png).
+![Pipeline Dashboard](screenshots/application-files.png)
 ![Pipeline Dashboard](screenshots/dashboard-pipeline.png)
 
-## 📋 Reporting
+## Reporting
 
 Custom reports provide operational insights for supervisors and management teams.
 
@@ -146,14 +137,14 @@ Examples include:
 ![Reports](screenshots/reports.png)
 
 
-## ✅ Task Management
+## Task Management
 
 Salesforce Tasks help officers manage follow-ups and customer interactions efficiently.
 
 ![Tasks](screenshots/tasks.png)
 
 
-## 🔐 Security Model
+## Security Model
 
 The application uses Salesforce security features to control data visibility and access.
 
@@ -165,47 +156,22 @@ Implemented concepts include:
 
 ![Role Hierarchy](screenshots/role-hierarchy.png)
 
+## Salesforce Capabilities Demonstrated
 
-## 🛠 Salesforce Features Demonstrated
+- Custom Objects and Fields
+- Page Layout Configuration
+- Lightning App Development
+- Validation Rules
+- Formula Fields
+- Record-Triggered Flows
+- Reports and Dashboards
+- Role Hierarchy Configuration
+- Chatter Collaboration
+- Task Management
+- Data Quality Controls
+- Business Process Automation
 
-### Data Management
-
-* Custom Objects
-* Custom Fields
-* Formula Fields
-* Record Relationships
-
-### Automation
-
-* Record-Triggered Flows
-* Process Automation
-* Task Creation
-
-### Data Quality
-
-* Validation Rules
-* Business Rule Enforcement
-
-### Analytics
-
-* Reports
-* Dashboards
-* KPI Tracking
-
-### Security
-
-* Role Hierarchy
-* Access Controls
-
-### User Experience
-
-* Lightning App
-* Custom Home Page
-* Chatter Collaboration
-
-
-
-## 💻 Technology Stack
+## Technology Stack
 
 | Technology           | Purpose             |
 | -------------------- | ------------------- |
@@ -218,25 +184,25 @@ Implemented concepts include:
 | Git                  | Version Control     |
 | GitHub               | Source Control      |
 
+This project was developed using Salesforce Lightning Experience and managed through Salesforce CLI, VS Code, Git, and GitHub for version control.
 
+## Skills Demonstrated
 
-## 🎯 Key Learning Outcomes
+This project demonstrates hands-on experience with:
 
-This project helped strengthen practical skills in:
-
-* Salesforce Administration
-* Business Process Design
+* Salesforce Administration & Configuration
+* Business Process Automation
 * CRM Data Management
-* Dashboard Development
-* Security Configuration
-* Workflow Automation
-* Financial Services Use Cases
+* Dashboard & Report Development
+* Security & Access Management
+* Financial Services Workflow Design
+* User Experience Optimization
 
 
-## 👤 Author
+## Author
 
 **Ritty Joseph**
 
-**Salesforce Administrator Portfolio Project**
+Salesforce Administrator | CRM & Financial Services Operations
 
-Designed and built to demonstrate Salesforce configuration, automation, analytics, security, and business process design skills within a realistic UAE financial services scenario.
+Portfolio project showcasing Salesforce administration, automation, analytics, security configuration, and business process design within a UAE credit card application management use case.
