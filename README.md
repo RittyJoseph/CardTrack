@@ -146,13 +146,31 @@ Salesforce Tasks help officers manage follow-ups and customer interactions effic
 
 ## Security Model
 
-The application uses Salesforce security features to control data visibility and access.
+CardTrack implements a structured Salesforce security model to control 
+data access and record visibility across the organisation.
 
-Implemented concepts include:
+**Organisation-Wide Defaults (OWD)**
+- Credit Card Application object set to **Private**, ensuring officers 
+  can only view records they own
+- Restricts cross-team data visibility by default
 
-* Role Hierarchy
-* Record Visibility Controls
-* User-Based Access Management
+**Role Hierarchy**
+A 3-tier hierarchy controls record access upward through the organisation:
+
+| Level | Role |
+|-------|------|
+| Tier 1 | NexaApprove CEO |
+| Tier 2 | Operations Manager |
+| Tier 3 | Credit Card Officers |
+
+**Profiles & Permission Sets**
+- Custom **Credit Card Officer Profile** with baseline object and field access
+- **Senior Officer Permission Set** grants elevated access without modifying 
+  the base profile
+
+**Field-Level Security (FLS)**
+Sensitive fields such as Monthly Income and Credit Limit are restricted 
+at the field level, visible only to authorised roles.
 
 ![Role Hierarchy](screenshots/role-hierarchy.png)
 
@@ -184,25 +202,33 @@ Implemented concepts include:
 | Git                  | Version Control     |
 | GitHub               | Source Control      |
 
-This project was developed using Salesforce Lightning Experience and managed through Salesforce CLI, VS Code, Git, and GitHub for version control.
+
+## Deployment
+
+Metadata managed and deployed using Salesforce CLI and VS Code with the 
+Salesforce Extension Pack. Source tracked via Git and hosted on GitHub.
+
+🔗 [View Repository](https://github.com/RittyJoseph/CardTrack)
 
 ## Skills Demonstrated
 
 This project demonstrates hands-on experience with:
 
-* Salesforce Administration & Configuration
-* Business Process Automation
-* CRM Data Management
-* Dashboard & Report Development
-* Security & Access Management
-* Financial Services Workflow Design
-* User Experience Optimization
-
-
+* Salesforce Administration & Configuration — Custom objects, fields, layouts, and Lightning App setup
+* Business Process Automation — 7 record-triggered flows covering application lifecycle events
+* Data Quality Management — 10 validation rules enforcing UAE banking data standards
+* Dashboard & Report Development — 9 operational reports and 9-component management dashboard
+* Security & Access Management — Private OWD, 5-tier Role Hierarchy, custom Profiles, Permission Sets, and FLS
+* Financial Services Workflow Design — DBR Calculator, application pipeline tracking, and bank submission monitoring
+* User Experience Optimisation — Path component, Quick Actions, Compact Layouts, and List Views
+  
 ## Author
 
 **Ritty Joseph**
 
 Salesforce Administrator | CRM & Financial Services Operations
 
-Portfolio project showcasing Salesforce administration, automation, analytics, security configuration, and business process design within a UAE credit card application management use case.
+This project demonstrates hands-on Salesforce administration across the full implementation lifecycle — data modelling, automation, 
+analytics, security configuration, and UX design — within a UAE credit card application management context.
+ 
+🔗 [GitHub](https://github.com/RittyJoseph/CardTrack)
