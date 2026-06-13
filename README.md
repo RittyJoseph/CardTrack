@@ -101,8 +101,8 @@ Track applications throughout the processing lifecycle:
 * Rejected
 * On Hold
 
+![Pipeline Dashboard](screenshots/application-files.png).
 ![Pipeline Dashboard](screenshots/dashboard-pipeline.png)
-
 
 ## 📋 Reporting
 
@@ -210,6 +210,6 @@ This project helped strengthen practical skills in:
 
 **Ritty Joseph**
 
-Salesforce Administrator Portfolio Project
+**Salesforce Administrator Portfolio Project**
 
 Designed and built to demonstrate Salesforce configuration, automation, analytics, security, and business process design skills within a realistic UAE financial services scenario.
